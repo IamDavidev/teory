@@ -11,7 +11,6 @@
       />
       </picture>
     </div>
-    <hr />
     <Loading v-if="load" />
     <div class="card" v-for="proyect in proyects" :key="proyect.id">
       <Card
@@ -54,7 +53,7 @@ export default {
 
 <style scoped>
 h1 {
-  color: #00166f;
+  color: #00ffff;
   float: left;
   justify-content: center;
   padding-top: 20px;
@@ -69,11 +68,11 @@ h1 {
   margin-bottom: 11px;
   color: #f5f5f5;
   box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.8);
-  border: 1px solid blue;
+  border: 1px solid #00ffff;
 }
 .card {
   margin: 20px;
-  border: 1px solid #0c00b1;
-  padding: 10px;
+  border: 3px solid #ffffff;
+  padding: 26px;
 }
 </style>

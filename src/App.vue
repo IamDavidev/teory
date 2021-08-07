@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <Header title="Vue proyect"/>
+  <Header title="ProYecto en Vue "/>
   <Container />
   <Footer/> 
   </div>

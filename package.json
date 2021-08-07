@@ -16,5 +16,5 @@
     "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0"
-  }
+  } 
 }

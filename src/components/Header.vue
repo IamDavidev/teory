@@ -17,11 +17,14 @@ export default {
 </script>
 
 <style scoped>
+.header {
+  margin-bottom:60px
+}
 h1 {
   margin: 0px 0 0;
-  color: #ffffff;
+  color: #050035;
   background: #262626;
-  text-shadow: 1px 1px 7px #ff0000;
+  text-shadow: 1px 1px 7px #ffffff;
   text-transform: uppercase;
   font-weight: bold;
 }

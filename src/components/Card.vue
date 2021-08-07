@@ -1,16 +1,17 @@
 <template>
   <div id="card-com">
-    <h3>
+    <h2>
       {{ name }}
-    </h3>
+    </h2>
     <p>
       {{ description }}
     </p>
     <p>
-      <strong> author : {{ author }} </strong>
+      author :
+      <strong> {{ author }} </strong>
     </p>
     <label>
-      <a :href="url" target="_blank"> go to repository</a>
+      <a :href="url" target="_blank">to repository</a>
     </label>
   </div>
 </template>
@@ -28,19 +29,29 @@ export default {
 
 <style scoped>
 * {
-  color: whitesmoke;
+  color: rgb(0, 255, 200);
 }
 #Card-com {
-  margin: 6px;
-  margin-bottom: 50;
+    margin: 6px;
+    margin-bottom: 50;
+}
+h2 {
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+p {
+  color: #00ffff;
+  font-weight: bold;
+}
+strong {
+  color:darkorchid
 }
 a {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: none;
-  border: 1px solid#00ffe5;
-  box-shadow: 1px 1px 3px #008080;
   border-radius: 8px;
-  padding: 3px;
   margin: 6px;
+  text-decoration: none;
 }
 </style>
